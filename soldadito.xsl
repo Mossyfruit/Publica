@@ -18,7 +18,9 @@
 						<xsl:value-of select="."/>
 						</p>
 					</xsl:for-each>
+				
 					</div>
+					</xsl:sort>
 				</xsl:for-each>	
 	  </body>
 		
