@@ -7,6 +7,9 @@
 			</head>
 			<body>
 				<h1>Información de la cancion</h1>
+				<h2>
+					<xsl:value-of select="cancion/titulo"/>
+				</h2>
 			</body>
   </html>
 		
