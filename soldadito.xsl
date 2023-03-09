@@ -15,6 +15,7 @@
 					<xsl:for-each select="verso">
 						<xsl:value-of select="."/>
 					</xsl:for-each>
+					</xsl:sort>
 				</xsl:for-each>
 			</body>
   </html>
