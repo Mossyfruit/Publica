@@ -15,7 +15,7 @@
 					<div>
 					<xsl:for-each select="verso">
 						<p>
-						<xsl:value-of select="."/>
+						<xsl:value-of select="current()"/>
 						</p>
 					</xsl:for-each>
 				
