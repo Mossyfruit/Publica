@@ -12,18 +12,11 @@
 				</h2>
 				<xsl:for-each select="cancion/letras/estrofa">
 					<xsl:sort select="orden">
-					<div>
 					<xsl:for-each select="verso">
-						<p>
-						<xsl:value-of select="current()"/>
-						</p>
+						<xsl:value-of select="."/>
 					</xsl:for-each>
-				
-					</div>
-					</xsl:sort>
-				</xsl:for-each>	
-	  </body>
-		
+				</xsl:for-each>
+			</body>
   </html>
 		
 	</xsl:template>
