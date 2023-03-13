@@ -13,11 +13,15 @@
 	</xsl:template>
 	
 	<xsl:template match="lista">
+		<xsl:template match="lista">
 		<p>
-			<xsl:value-of select="nombre"/>
-		</p>
-		<h2>
 			<xsl:value-of select="titulo"/>
+		</p>
+		
+	</xsl:template>
+	<xsl:template match="nombre">
+		<h2>
+			<xsl:value-of select="nombre"/>
 		</h2>
 	</xsl:template>
 	 
