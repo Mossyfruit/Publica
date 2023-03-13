@@ -1,10 +1,12 @@
 p{
     color:green !important;
     background-color: darkgrey;
-    
+    font-size:large;
 }
 
 h2{
     font-style: italic;
-    color:black
+    color:black;
+    font-size:small;
+        
 }
