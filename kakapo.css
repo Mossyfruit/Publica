@@ -1,10 +1,10 @@
-h2{
+p{
     color:green !important;
     background-color: darkgrey;
     
 }
 
-p{
+h2{
     font-style: italic;
     color:black
 }
