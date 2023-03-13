@@ -21,7 +21,7 @@
 	</xsl:template>
 	<xsl:template match="nombre">
 		<h2>
-			<xsl:value-of select="nombre"/>
+			<xsl:value-of select="."/>
 		</h2>
 	</xsl:template>
 	 
