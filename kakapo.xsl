@@ -12,7 +12,7 @@
 		</html>
 	</xsl:template>
 	
-	<xsl:template match="lista">
+	
 		<xsl:template match="lista">
 		<p>
 			<xsl:value-of select="titulo"/>
