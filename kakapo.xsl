@@ -7,7 +7,7 @@
 			</head>
 			
 			<body>
-				
+				<xsl:apply-templates/>
 			</body>
 		</html>
 	</xsl:template>
