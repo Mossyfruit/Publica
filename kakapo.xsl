@@ -17,12 +17,10 @@
 		<p>
 			<xsl:value-of select="titulo"/>
 		</p>
-		
-	</xsl:template>
-	<xsl:template match="nombre">
 		<h2>
-			<xsl:value-of select="."/>
+			<xsl:value-of select="nombre"/>
 		</h2>
 	</xsl:template>
+	
 	 
 </xsl:stylesheet>
