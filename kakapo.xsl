@@ -19,7 +19,9 @@
 		</p>
 		<h2>
 			<xsl:for-each select="nombre">
+				<div>
 			<xsl:value-of select="."/>
+				</div>
 			</xsl:for-each>
 		</h2>
 	</xsl:template>
